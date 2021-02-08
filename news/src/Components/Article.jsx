@@ -1,18 +1,14 @@
 import React from 'react'
 
-
-
 function Article(props) {
     
-    
-    const { title, image, section } = props;
-
+    const { title, image, url, section } = props;
 
     return (
         <article>
             <header>
-                <h2>{title}</h2>
-                <img src={image} alt="placeholder"/>
+                <a href={url}><h2>{title}</h2></a>
+                <img src={image} alt="news pic here"/>
             </header>
             <main>
                 <section>
