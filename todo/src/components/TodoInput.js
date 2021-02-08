@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 const TodoList = (props) => {
     let { listItem, setListItem } = props;
@@ -18,7 +19,7 @@ const TodoList = (props) => {
     return(
         <div>
             <input onChange={onChange} type="text" name="task"></input>    
-            <button onClick={onClick}>Add Task</button>
+            <Button variant="info" onClick={onClick}>Add Task</Button>{''}
         </div>
     )
 }

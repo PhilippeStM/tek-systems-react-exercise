@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 const TodoList = (props) => {
     const { task, index, listItem, setListItem } = props;
@@ -13,8 +14,11 @@ return (
         <div>
             <label htmlFor="checkbox">Completed?</label>
             <input type="checkbox" name=""></input>
-            <button onClick={onClick}>X</button>
+            <Button variant="info" onClick={onClick}>X</Button>{''}
+            <hr></hr>
         </div>
+            
+
     </div>
 )
 };
