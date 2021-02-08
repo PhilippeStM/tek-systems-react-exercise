@@ -1,18 +1,22 @@
 import React from 'react'
 
-function Article() {
+
+
+function Article(props) {
+    
+    
+    const { title, image, section } = props;
+
+
     return (
         <article>
             <header>
-                <h2>Sample Article</h2>
-                <img src="https://via.placeholder.com/150" alt="placeholder"/>
+                <h2>{title}</h2>
+                <img src={image} alt="placeholder"/>
             </header>
             <main>
                 <section>
-                    <p>Sample Article Section 1</p>
-                </section>
-                <section>
-                    <p>Sample Article Section 2</p>
+                    <p>{section}</p>
                 </section>
             </main>
         </article>

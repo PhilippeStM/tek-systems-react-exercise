@@ -10,7 +10,8 @@ function Headlines() {
     useEffect(() => {
         axios.get("https://content.guardianapis.com/search?q=headline&api-key=4ed20bfd-6d6c-4ef9-9e3b-b6c4037d2231")
             .then((res) => {
-                setHeadline(res.data);
+                setHeadline(res.data.response.results[0]);
+                console.log(res.data.response.results[0]);
             })
             .catch((err) => console.log(err));
     }, []);
@@ -18,9 +19,8 @@ function Headlines() {
 
     return (
         <div>
-            <h1>Headline News goes here: </h1>
-            <p>This should be on the main home page</p>
-            <Article />
+            <h1>Headlines: </h1>
+            <Article title={headline.webTitle} />
             <Article />
             <Article />
         </div>
