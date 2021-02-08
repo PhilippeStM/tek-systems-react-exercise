@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 const TodoList = (props) => {
     let { listItem, setListItem } = props;
 
-    let task = {
+    const task = {
         name: "",
     }
 
@@ -18,7 +18,7 @@ const TodoList = (props) => {
 
     return(
         <div>
-            <input onChange={onChange} type="text" name="task"></input>    
+            <input className="taskInput" onChange={onChange} type="text" name="task"></input>    
             <Button variant="info" onClick={onClick}>Add Task</Button>{''}
         </div>
     )

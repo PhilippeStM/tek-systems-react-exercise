@@ -22,7 +22,7 @@ const TodoApp = () => {
                 <TodoList task={task} setListItem={setListItem} index={i} listItem={listItem} />
             ))}
             <TodoInput listItem={listItem} setListItem={setListItem} />
-
+            <hr></hr>
             <Button variant="info" onClick={resetList}>Delete All Items</Button>{''}
         </center>
     );

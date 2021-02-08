@@ -10,11 +10,12 @@ const TodoList = (props) => {
 
 return (
     <div>
-        <h4>{task.name}</h4>
+        <h2>{task.name}</h2>
         <div>
-            <label htmlFor="checkbox">Completed?</label>
-            <input type="checkbox" name=""></input>
-            <Button variant="info" onClick={onClick}>X</Button>{''}
+            <label className="checkboxText" htmlFor="checkbox">Completed?</label>
+            <input className="checkbox" type="checkbox" name=""></input>
+            <br></br>
+            <Button variant="info" onClick={onClick}>Delete Task</Button>{''}
             <hr></hr>
         </div>
             
