@@ -6,25 +6,28 @@ import Sports from './Views/Sports';
 import Weather from './Views/Weather';
 import Politics from './Views/Politics';
 import Footer from './Components/Footer';
+// import { Router } from "react-router";
 
 function App() {
   return (
+    // <Router>
     <div className="App">
       <header className="App-header">
-        <NavBar/>
+        <NavBar />
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-         <br/>
+          <br />
           <p>Create a News Site</p>
           <p>Set up a Single Page Application (SPA) with react-router</p>
-          <Headlines/>
-          <Sports/>
-          <Weather/>
-          <Politics/>
+          <Headlines />
+          <Sports />
+          <Weather />
+          <Politics />
         </div>
       </header>
-      <Footer/>
+      <Footer />
     </div>
+    // </Router>
   );
 }
 
