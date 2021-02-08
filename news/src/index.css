@@ -13,7 +13,7 @@ code {
 }
 
 h2 {
-  font-size: 125%;
+  font-size: 100%;
 }
 
 h2:hover {
@@ -21,11 +21,11 @@ h2:hover {
   font-style: italic;
 }
 
-span {
-  font-size: large;
+img {
+  max-width: 35%;
+  border-radius: 50px;
 }
 
-img {
-  max-width: 45%;
-  border-radius: 25px;
+p {
+  font-size: 75%;
 }
