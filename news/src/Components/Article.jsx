@@ -16,6 +16,7 @@ function Article(props) {
                 </section>
                 <img src={image} alt="news pic here" />
             </main>
+            <hr></hr>
         </article>
     )
 }

@@ -29,3 +29,8 @@ img {
 p {
   font-size: 75%;
 }
+
+hr {
+border: rgb(143, 143, 143) solid 5px;
+width: 1000px;
+}

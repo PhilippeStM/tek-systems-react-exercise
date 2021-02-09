@@ -21,9 +21,7 @@ function Headlines() {
 
     return (
         <div>
-            <h1>Headlines: </h1>
-            <h3>(click below...)</h3>
-            
+            <h1>Headlines: </h1>            
             <Article title={headline.title} url={headline.url} image={headline.urlToImage} section={headline.description} />
             <Article title={headline2.title} url={headline2.url} image={headline2.urlToImage} section={headline2.description} />
             <Article title={headline3.title} url={headline3.url} image={headline3.urlToImage} section={headline3.description} />
