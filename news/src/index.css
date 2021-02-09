@@ -34,3 +34,11 @@ hr {
 border: rgb(143, 143, 143) solid 5px;
 width: 1000px;
 }
+
+li {
+  margin: 20px;
+}
+
+.navBar:hover {
+  color: rgba(255, 0, 0, 0.692);
+}
