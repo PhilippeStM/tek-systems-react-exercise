@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  font-size: 100%;
+}
+
+h2:hover {
+  color: rgba(255, 0, 0, 0.616);
+  font-style: italic;
+}
+
+img {
+  max-width: 35%;
+  border-radius: 50px;
+}
+
+p {
+  font-size: 75%;
+}
+
+hr {
+border: rgb(143, 143, 143) solid 5px;
+width: 1000px;
+}
+
+li {
+  margin: 20px;
+}
+
+.navBar:hover {
+  color: rgba(255, 0, 0, 0.692);
+}
